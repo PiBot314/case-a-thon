@@ -1,0 +1,31 @@
+{
+  "by_type": {
+    "anchor_auto": 24351,
+    "singleton": 1043,
+    "anchor_review": 170,
+    "cross_source_cluster": 20,
+    "cross_source_anchor": 2
+  },
+  "by_system": {
+    "followup_visits": 0.9106,
+    "lab_tests": 0.9107,
+    "medicine_dispensing": 0.9306,
+    "ncd_screening": 0.9986,
+    "outreach_actions": 0.9575,
+    "prescriptions": 0.9319,
+    "teleconsultations": 0.9986,
+    "visit_history": 0.9697
+  },
+  "patients": 5970,
+  "anchored_patients": 4917,
+  "patient_system_pairs_with_multiple_ids": 17,
+  "review_flagged": 170,
+  "village_repaired_share": 0.0548,
+  "score_quantiles": {
+    "0.05": 0.987,
+    "0.25": 1.0,
+    "0.5": 1.0,
+    "0.75": 1.0
+  },
+  "hand_check": "pending - label reports/linkage_hand_check_template.csv, save as linkage_hand_check_labelled.csv"
+}
