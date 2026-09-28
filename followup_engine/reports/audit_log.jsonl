@@ -60,3 +60,5 @@
 {"ts": "2026-09-28T22:50:31", "user": "arnav", "event": "episodes_end", "total": 5516, "dev": 4132, "eval_": 1384, "stage1_rate": 0.586, "stage2_rate": 0.255, "stage3_rate": 0.467}
 {"ts": "2026-09-28T23:19:41", "user": "arnav", "event": "features_start"}
 {"ts": "2026-09-28T23:19:42", "user": "arnav", "event": "features_end", "rows": 5516, "n_features": 70}
+{"ts": "2026-09-28T23:35:09", "user": "arnav", "event": "models_trained", "primary": "logreg", "stage_model": "logreg", "n_eval": 1384}
+{"ts": "2026-09-28T23:45:48", "user": "arnav", "event": "models_trained", "primary": "xgboost", "stage_model": "logreg", "n_eval": 1384}

@@ -193,6 +193,9 @@ def main():
         c in dev.columns for c in ("gender", "preferred_language", "vulnerability_group", "age_t0")) else dev.loc[scored].copy()
     if "age_t0" in fl.columns:
         fl["age_band"] = age_band(fl["age_t0"])
+    for _c in ("gender", "age_band", "preferred_language", "vulnerability_group"):
+        if _c in fl.columns:
+            fl[_c] = fl[_c].astype(object).where(fl[_c].notna(), "Unknown")
     cut = np.sort(po_cal)[::-1][max(0, int(round(len(po_cal) * a.k_frac)) - 1)]
     rows = []
     for col in ("gender", "age_band", "preferred_language", "vulnerability_group"):

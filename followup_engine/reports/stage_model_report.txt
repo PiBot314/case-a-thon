@@ -1,0 +1,31 @@
+  model  fold  accuracy  macro_f1  log_loss
+ logreg     1  0.542569  0.400661  1.009542
+ logreg     2  0.494169  0.348767  0.989647
+ logreg     3  0.538012  0.353258  1.001277
+xgboost     1  0.574315  0.372353  0.955334
+xgboost     2  0.537901  0.334303  0.954740
+xgboost     3  0.557018  0.348140  0.939007
+
+== logreg (pooled OOF) ==
+                        precision    recall  f1-score   support
+
+Completed care journey       0.61      0.70      0.65      1103
+Medicine not collected       0.46      0.43      0.44       561
+   Review not attended       0.30      0.19      0.24       276
+    Test not completed       0.16      0.13      0.14       123
+
+              accuracy                           0.52      2063
+             macro avg       0.38      0.36      0.37      2063
+          weighted avg       0.50      0.52      0.51      2063
+
+== xgboost (pooled OOF) ==
+                        precision    recall  f1-score   support
+
+Completed care journey       0.62      0.77      0.69      1103
+Medicine not collected       0.47      0.47      0.47       561
+   Review not attended       0.32      0.11      0.16       276
+    Test not completed       0.15      0.06      0.08       123
+
+              accuracy                           0.56      2063
+             macro avg       0.39      0.35      0.35      2063
+          weighted avg       0.51      0.56      0.52      2063
