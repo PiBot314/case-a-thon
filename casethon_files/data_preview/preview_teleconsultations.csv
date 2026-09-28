@@ -1,6 +1,0 @@
-﻿teleconsult_id,tele_source_patient_id,patient_name,gender,age,mobile,village,block,district,consult_date,facility_id,chief_complaint,diagnosis_group,consult_mode,duration_min,medicine_advised,test_advised,review_advised,review_due_days,distance_to_facility_km,preferred_language,connectivity_quality,consult_status
-TC0000001,TEP0000001,Mohan Basha,M,47,9983609751,Chandur,Chandur,Nalgonda,2026-05-19,FAC015,Routine NCD review,Other,Audio,15,Yes,Yes,No,,29.7,Telugu,Poor,Completed
-TC0000002,TEP0000002,Mohan Laxman,M,44,9136944279,Bodajanampet,Balanagar,Mahabubnagar,2026-07-22,FAC006,Skin complaint,Other,Assisted video,18,No,No,Yes,21,33.3,Telugu,Fair,Completed
-TC0000003,TEP0000002,Mohan Laxman,M,47,,Bodajanampet,Balanagar,Mahabubnagar,2026-08-11,FAC004,Skin complaint,Fever/Infection,Video,20,No,No,Yes,7,27.6,Telugu,Good,Completed
-TC0000004,TEP0000003,Mohan Narsimha,M,46,9484336710,Kondamallepally,Devarakonda,Nalgonda,2026-06-02,FAC011,Routine NCD review,Hypertension,Video,16,Yes,Yes,Yes,30,25.7,Telugu,Fair,Completed
-TC0000005,TEP0000004,Sai Krishna,M,19,9445488147,Macharam,Jadcherla,Mahabubnagar,2026-04-24,FAC001,Abdominal discomfort,Hypertension,Video,19,Yes,Yes,Yes,14,17.2,Urdu,Fair,Completed

@@ -1,6 +1,0 @@
-﻿dispense_id,pharm_source_patient_id,patient_name,mobile,village,dispense_date,prescription_id,medicine_name,prescribed_qty_proxy,dispensed_qty,partial_fill,stockout_flag,facility_id,dispense_status
-DSP0000001,PHP0000001,Mohan Basha,9983609751,Chandur,2026-05-19,RX0000001,Cetirizine,5,15,0,0,FAC015,Dispensed
-DSP0000002,PHP0000002,Mohan Narsimha,9484336710,Kondamallepally,2026-06-04,RX0000002,Amlodipine,30,30,0,0,FAC011,Dispensed
-DSP0000003,PHP0000003,Anitha Narsimha,9474992238,Devarakonda,2026-02-26,RX0000004,Amlodipine,30,15,1,0,FAC011,Partially dispensed
-DSP0000004,PHP0000003,Anitha Narsimha,9474992238,Devarakonda,2026-03-01,RX0000004,Metformin,30,30,0,0,FAC011,Dispensed
-DSP0000005,PHP0000004,Ramesh Begum,9645420540,Kangti,2026-02-07,RX0000008,Pantoprazole,10,30,0,0,FAC020,Dispensed

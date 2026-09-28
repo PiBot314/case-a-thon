@@ -1,6 +1,0 @@
-﻿prescription_id,prescription_line_id,rx_source_patient_id,patient_name,mobile,village,prescription_date,teleconsult_id,medicine_name,medicine_class,frequency,days_prescribed,route,facility_id
-RX0000001,RX0000001-1,RXP0000001,Mohan Basha,9983609751,Chandur,2026-05-19,TC0000001,Cetirizine,Antihistamine,BD,5,Oral,FAC015
-RX0000002,RX0000002-1,RXP0000002,Mohan Narsimha,9484336710,Kondamallepally,2026-06-02,TC0000004,Amlodipine,Antihypertensive,TID,30,Oral,FAC011
-RX0000003,RX0000003-1,RXP0000003,Sai Krishna,9445488147,Macharam,2026-04-24,TC0000005,Amlodipine,Antihypertensive,BD,30,Oral,FAC001
-RX0000004,RX0000004-1,RXP0000004,Anitha Narsimha,9474992238,Devarakonda,2026-02-26,TC0000006,Amlodipine,Antihypertensive,BD,30,Oral,FAC011
-RX0000004,RX0000004-2,RXP0000004,Anitha Narsimha,9474992238,Devarakonda,2026-02-26,TC0000006,Metformin,Antidiabetic,TID,30,Topical,FAC011

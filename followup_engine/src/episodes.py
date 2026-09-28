@@ -51,6 +51,7 @@ n_outreach_attempts, last_outreach_outcome,
 # label passthrough (DEVELOPMENT only)
 lost_to_followup_label, dropout_stage_label
 """
+from __future__ import annotations
 
 import json
 import logging
@@ -166,7 +167,7 @@ def _build_stage2(teleconsults: pd.DataFrame,
 
     # post-T0 and within window
     merged = merged[
-        (merged["days_to_test"] > 0) &
+        (merged["days_to_test"] >= 0) &
         (merged["days_to_test"] <= TEST_WINDOW_DAYS)
     ]
 

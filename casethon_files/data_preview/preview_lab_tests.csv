@@ -1,6 +1,0 @@
-﻿lab_record_id,lab_source_patient_id,patient_name,mobile,village,order_date,test_name,sample_date,result_date,result_flag,test_status,facility_id,lab_type
-LAB0000001,LAP0000001,Mohan Basha,9983609751,Chandur,2026-05-19,Lipid Profile,2026-05-22,2026-05-23,Normal,Available,FAC015,Facility lab
-LAB0000002,LAP0000002,Mohan Narsimha,9484336710,Kondamallepally,2026-06-02,Blood Glucose,2026-06-04,2026-06-05,Normal,Available,FAC011,Hub lab
-LAB0000003,LAP0000003,Sai Krishna,9445488947,Macharam,2026-04-24,ECG,,,,Ordered-not-completed,FAC001,Facility lab
-LAB0000004,LAP0000004,Anitha Narsimha,9474992238,Devarakonda,2026-03-17,ECG,2026-03-20,2026-03-22,Critical,Available,FAC011,Facility lab
-LAB0000005,LAP0000005,Suresh Reddy,9480282019,Chandur,2026-03-23,CBC,2026-03-25,2026-03-25,Normal,Available,FAC015,External lab

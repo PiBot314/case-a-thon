@@ -1,6 +1,0 @@
-﻿facility_id,facility_name,facility_type,district,block,latitude,longitude,network_context,cho_count,asha_linked_count
-FAC001,Jadcherla PHC-1,PHC,Mahabubnagar,Jadcherla,16.777331,78.039561,Offline-prone,2,4
-FAC002,Jadcherla HWC-1,HWC,Mahabubnagar,Jadcherla,16.757882,77.831472,2G/3G,3,4
-FAC003,Jadcherla HWC-2,HWC,Mahabubnagar,Jadcherla,16.822409,78.00411,4G intermittent,3,3
-FAC004,Balanagar PHC-1,PHC,Mahabubnagar,Balanagar,16.690049,77.900362,4G intermittent,1,2
-FAC005,Balanagar HWC-1,HWC,Mahabubnagar,Balanagar,16.70255,77.907372,4G intermittent,2,2

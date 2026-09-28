@@ -1,6 +1,0 @@
-﻿visit_id,visit_source_patient_id,patient_name,mobile,village,visit_date,visit_type,facility_id,episode_id,clinical_status,referral_flag
-VIS0000001,VIP0000001,Mohan Basha,9983609751,Chandur,2026-05-19,Teleconsultation,FAC015,E0000001,Consult completed,No
-VIS0000002,VIP0000002,Mohn Laxman,9136944279,Bodajanampet,2026-07-22,Teleconsultation,FAC006,E0000002,Consult completed,No
-VIS0000003,VIP0000002,Mohan Laxman,9136944279,Bodajanampet,2026-08-20,Follow-up review,FAC004,E0000003,Needs escalation,No
-VIS0000004,VIP0000002,Mohan Laxman,9136944279,Bodajanampet,2026-08-11,Teleconsultation,FAC004,E0000003,Consult completed,No
-VIS0000005,VIP0000003,Mohan Narsimha,9484336710,Kondamallepally,2026-07-06,Follow-up review,FAC011,E0000004,Needs escalation,No

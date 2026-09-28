@@ -1,6 +1,0 @@
-﻿ncd_record_id,ncd_source_patient_id,patient_name,gender,age,mobile,village,block,district,screening_date,screening_type,systolic_bp,diastolic_bp,random_glucose_mg_dl,bmi,ncd_status,control_status,next_followup_due
-NCDR0000001,NCP0000001,Mohan Mallaiah,M,18,9856495988,Indresham,Patancheru,Sangareddy,2026-01-02,HWC screening,147,106,290,30.8,Hypertension+Diabetes,Controlled,2026-04-02
-NCDR0000002,NCP0000002,Mohan Basha,M,47,9983609751,Chandur,Chandur,Nalgonda,2026-03-14,Community screening,117,93,153,33.6,None,Not diagnosed,
-NCDR0000003,NCP0000003,Mohan Laxman,M,45,9136944279,Bodajanampet,Balanagar,Mahabubnagar,2026-04-08,HWC screening,186,87,140,18.8,Hypertension,Controlled,2026-05-08
-NCDR0000004,NCP0000004,Mohan Narsimha,M,48,9484336710,KONDAMALLEPALLY,Devarakonda,Nalgonda,2026-03-24,Community screening,174,86,101,27.1,Hypertension,Borderline,2026-04-23
-NCDR0000005,NCP0000004,Mohan Narsimha,M,46,,Kondamallepally,Devarakonda,Nalgonda,2026-05-31,HWC screening,157,85,100,22.0,Hypertension,Controlled,2026-08-29

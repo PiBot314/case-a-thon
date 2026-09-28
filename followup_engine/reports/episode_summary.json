@@ -1,0 +1,21 @@
+{
+  "total_episodes": 5516,
+  "development": 4132,
+  "evaluation": 1384,
+  "stage_completion_rates_dev": {
+    "stage1_medicine": 0.586,
+    "stage2_test": 0.256,
+    "stage3_review": 0.466,
+    "stage4_resolved": 0.055
+  },
+  "derived_dropout_stage_dist": {
+    "Completed care journey": 3170,
+    "Medicines not collected": 978,
+    "Review not attended": 835,
+    "Test not completed": 533
+  },
+  "label_agreement_dev": 0.6989351403678606,
+  "median_days_to_medicine": 2.0,
+  "median_days_to_test": 0.0,
+  "median_days_to_review": 20.0
+}

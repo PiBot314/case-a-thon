@@ -16,3 +16,47 @@
 {"ts": "2026-09-28T21:22:01", "user": "arnav", "event": "ingest_end", "tables_loaded": 13}
 {"ts": "2026-09-28T22:23:38", "user": "arnav", "event": "linkage_start"}
 {"ts": "2026-09-28T22:23:44", "user": "arnav", "event": "linkage_end", "rows": 25586, "patients": 5970, "by_type": {"anchor_auto": 24351, "singleton": 1043, "anchor_review": 170, "cross_source_cluster": 20, "cross_source_anchor": 2}}
+{"ts": "2026-09-28T22:37:36", "user": "arnav", "event": "linkage_start"}
+{"ts": "2026-09-28T22:37:40", "user": "arnav", "event": "linkage_end", "rows": 25586, "patients": 5970, "by_type": {"anchor_auto": 24351, "singleton": 1043, "anchor_review": 170, "cross_source_cluster": 20, "cross_source_anchor": 2}}
+{"ts": "2026-09-28T22:43:33", "user": "arnav", "event": "ingest_start", "raw_dir": "/Users/arnav/agcode/casethon/followup_engine/data/raw", "note": "T0 = end of teleconsultation. Tables flagged post_t0=True must NOT feed T0 features."}
+{"ts": "2026-09-28T22:43:34", "user": "arnav", "event": "table_ingested", "table": "patient_360_reference", "rows": 5000, "file": "patient_360_reference.csv"}
+{"ts": "2026-09-28T22:43:34", "user": "arnav", "event": "table_ingested", "table": "geography_reference", "rows": 36, "file": "geography_reference.csv"}
+{"ts": "2026-09-28T22:43:34", "user": "arnav", "event": "table_ingested", "table": "facility_reference", "rows": 27, "file": "facility_reference.csv"}
+{"ts": "2026-09-28T22:43:34", "user": "arnav", "event": "table_ingested", "table": "medicine_stock_status", "rows": 1296, "file": "medicine_stock_status.csv"}
+{"ts": "2026-09-28T22:43:34", "user": "arnav", "event": "table_ingested", "table": "teleconsultations", "rows": 5516, "file": "teleconsultations.csv"}
+{"ts": "2026-09-28T22:43:34", "user": "arnav", "event": "table_ingested", "table": "ncd_screening", "rows": 4748, "file": "ncd_screening.csv"}
+{"ts": "2026-09-28T22:43:34", "user": "arnav", "event": "table_ingested", "table": "prescriptions", "rows": 5151, "file": "prescriptions.csv"}
+{"ts": "2026-09-28T22:43:34", "user": "arnav", "event": "table_ingested", "table": "medicine_dispensing", "rows": 3756, "file": "medicine_dispensing.csv"}
+{"ts": "2026-09-28T22:43:34", "user": "arnav", "event": "table_ingested", "table": "lab_tests", "rows": 2005, "file": "lab_tests.csv"}
+{"ts": "2026-09-28T22:43:35", "user": "arnav", "event": "table_ingested", "table": "visit_history", "rows": 13061, "file": "visit_history.csv"}
+{"ts": "2026-09-28T22:43:35", "user": "arnav", "event": "table_ingested", "table": "followup_visits", "rows": 2575, "file": "followup_visits.csv"}
+{"ts": "2026-09-28T22:43:35", "user": "arnav", "event": "table_ingested", "table": "outreach_actions", "rows": 6088, "file": "outreach_actions.csv"}
+{"ts": "2026-09-28T22:43:35", "user": "arnav", "event": "table_ingested", "table": "episode_outcomes", "rows": 5516, "file": "episode_outcomes.csv"}
+{"ts": "2026-09-28T22:43:54", "user": "arnav", "event": "identities_built", "rows": 25586}
+{"ts": "2026-09-28T22:43:54", "user": "arnav", "event": "ingest_end", "tables_loaded": 13}
+{"ts": "2026-09-28T22:43:54", "user": "arnav", "event": "linkage_start"}
+{"ts": "2026-09-28T22:43:59", "user": "arnav", "event": "linkage_end", "rows": 25586, "patients": 5970, "by_type": {"anchor_auto": 24351, "singleton": 1043, "anchor_review": 170, "cross_source_cluster": 20, "cross_source_anchor": 2}}
+{"ts": "2026-09-28T22:43:59", "user": "arnav", "event": "episodes_start"}
+{"ts": "2026-09-28T22:43:59", "user": "arnav", "event": "episodes_end", "total": 5516, "dev": 4132, "eval_": 1384, "stage1_rate": 0.586, "stage2_rate": 0.015, "stage3_rate": 0.467}
+{"ts": "2026-09-28T22:50:04", "user": "arnav", "event": "ingest_start", "raw_dir": "/Users/arnav/agcode/casethon/followup_engine/data/raw", "note": "T0 = end of teleconsultation. Tables flagged post_t0=True must NOT feed T0 features."}
+{"ts": "2026-09-28T22:50:05", "user": "arnav", "event": "table_ingested", "table": "patient_360_reference", "rows": 5000, "file": "patient_360_reference.csv"}
+{"ts": "2026-09-28T22:50:05", "user": "arnav", "event": "table_ingested", "table": "geography_reference", "rows": 36, "file": "geography_reference.csv"}
+{"ts": "2026-09-28T22:50:05", "user": "arnav", "event": "table_ingested", "table": "facility_reference", "rows": 27, "file": "facility_reference.csv"}
+{"ts": "2026-09-28T22:50:05", "user": "arnav", "event": "table_ingested", "table": "medicine_stock_status", "rows": 1296, "file": "medicine_stock_status.csv"}
+{"ts": "2026-09-28T22:50:05", "user": "arnav", "event": "table_ingested", "table": "teleconsultations", "rows": 5516, "file": "teleconsultations.csv"}
+{"ts": "2026-09-28T22:50:05", "user": "arnav", "event": "table_ingested", "table": "ncd_screening", "rows": 4748, "file": "ncd_screening.csv"}
+{"ts": "2026-09-28T22:50:06", "user": "arnav", "event": "table_ingested", "table": "prescriptions", "rows": 5151, "file": "prescriptions.csv"}
+{"ts": "2026-09-28T22:50:06", "user": "arnav", "event": "table_ingested", "table": "medicine_dispensing", "rows": 3756, "file": "medicine_dispensing.csv"}
+{"ts": "2026-09-28T22:50:06", "user": "arnav", "event": "table_ingested", "table": "lab_tests", "rows": 2005, "file": "lab_tests.csv"}
+{"ts": "2026-09-28T22:50:06", "user": "arnav", "event": "table_ingested", "table": "visit_history", "rows": 13061, "file": "visit_history.csv"}
+{"ts": "2026-09-28T22:50:06", "user": "arnav", "event": "table_ingested", "table": "followup_visits", "rows": 2575, "file": "followup_visits.csv"}
+{"ts": "2026-09-28T22:50:06", "user": "arnav", "event": "table_ingested", "table": "outreach_actions", "rows": 6088, "file": "outreach_actions.csv"}
+{"ts": "2026-09-28T22:50:06", "user": "arnav", "event": "table_ingested", "table": "episode_outcomes", "rows": 5516, "file": "episode_outcomes.csv"}
+{"ts": "2026-09-28T22:50:26", "user": "arnav", "event": "identities_built", "rows": 25586}
+{"ts": "2026-09-28T22:50:26", "user": "arnav", "event": "ingest_end", "tables_loaded": 13}
+{"ts": "2026-09-28T22:50:26", "user": "arnav", "event": "linkage_start"}
+{"ts": "2026-09-28T22:50:30", "user": "arnav", "event": "linkage_end", "rows": 25586, "patients": 5970, "by_type": {"anchor_auto": 24351, "singleton": 1043, "anchor_review": 170, "cross_source_cluster": 20, "cross_source_anchor": 2}}
+{"ts": "2026-09-28T22:50:30", "user": "arnav", "event": "episodes_start"}
+{"ts": "2026-09-28T22:50:31", "user": "arnav", "event": "episodes_end", "total": 5516, "dev": 4132, "eval_": 1384, "stage1_rate": 0.586, "stage2_rate": 0.255, "stage3_rate": 0.467}
+{"ts": "2026-09-28T23:19:41", "user": "arnav", "event": "features_start"}
+{"ts": "2026-09-28T23:19:42", "user": "arnav", "event": "features_end", "rows": 5516, "n_features": 70}

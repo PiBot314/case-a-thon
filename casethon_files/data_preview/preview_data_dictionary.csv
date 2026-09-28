@@ -1,6 +1,0 @@
-﻿file,field,description,competition_note
-patient_360_reference.csv,patient_id,Canonical synthetic patient identifier in the reference entity table.,
-patient_360_reference.csv,canonical_name,Canonical synthetic patient name.,
-patient_360_reference.csv,gender,Synthetic recorded sex/gender marker used for linkage context.,
-patient_360_reference.csv,date_of_birth,Canonical synthetic date of birth.,
-patient_360_reference.csv,age_as_of_2026,Age derived for 2026.,
