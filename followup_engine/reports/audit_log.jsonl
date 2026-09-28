@@ -1,0 +1,16 @@
+{"ts": "2026-09-28T21:21:39", "user": "arnav", "event": "ingest_start", "raw_dir": "/Users/arnav/agcode/casethon/followup_engine/data/raw", "note": "T0 = end of teleconsultation. Tables flagged post_t0=True must NOT feed T0 features."}
+{"ts": "2026-09-28T21:21:41", "user": "arnav", "event": "table_ingested", "table": "patient_360_reference", "rows": 5000, "file": "patient_360_reference.csv"}
+{"ts": "2026-09-28T21:21:41", "user": "arnav", "event": "table_ingested", "table": "geography_reference", "rows": 36, "file": "geography_reference.csv"}
+{"ts": "2026-09-28T21:21:41", "user": "arnav", "event": "table_ingested", "table": "facility_reference", "rows": 27, "file": "facility_reference.csv"}
+{"ts": "2026-09-28T21:21:41", "user": "arnav", "event": "table_ingested", "table": "medicine_stock_status", "rows": 1296, "file": "medicine_stock_status.csv"}
+{"ts": "2026-09-28T21:21:42", "user": "arnav", "event": "table_ingested", "table": "teleconsultations", "rows": 5516, "file": "teleconsultations.csv"}
+{"ts": "2026-09-28T21:21:42", "user": "arnav", "event": "table_ingested", "table": "ncd_screening", "rows": 4748, "file": "ncd_screening.csv"}
+{"ts": "2026-09-28T21:21:42", "user": "arnav", "event": "table_ingested", "table": "prescriptions", "rows": 5151, "file": "prescriptions.csv"}
+{"ts": "2026-09-28T21:21:42", "user": "arnav", "event": "table_ingested", "table": "medicine_dispensing", "rows": 3756, "file": "medicine_dispensing.csv"}
+{"ts": "2026-09-28T21:21:42", "user": "arnav", "event": "table_ingested", "table": "lab_tests", "rows": 2005, "file": "lab_tests.csv"}
+{"ts": "2026-09-28T21:21:43", "user": "arnav", "event": "table_ingested", "table": "visit_history", "rows": 13061, "file": "visit_history.csv"}
+{"ts": "2026-09-28T21:21:43", "user": "arnav", "event": "table_ingested", "table": "followup_visits", "rows": 2575, "file": "followup_visits.csv"}
+{"ts": "2026-09-28T21:21:43", "user": "arnav", "event": "table_ingested", "table": "outreach_actions", "rows": 6088, "file": "outreach_actions.csv"}
+{"ts": "2026-09-28T21:21:43", "user": "arnav", "event": "table_ingested", "table": "episode_outcomes", "rows": 5516, "file": "episode_outcomes.csv"}
+{"ts": "2026-09-28T21:22:01", "user": "arnav", "event": "identities_built", "rows": 25586}
+{"ts": "2026-09-28T21:22:01", "user": "arnav", "event": "ingest_end", "tables_loaded": 13}

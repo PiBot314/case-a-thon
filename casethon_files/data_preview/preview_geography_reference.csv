@@ -1,0 +1,6 @@
+﻿village_id,village,district,block,latitude,longitude,population,road_access,mobile_connectivity
+VIL0001,Badepally,Mahabubnagar,Jadcherla,16.863881,77.982442,3961,Mostly paved,Moderate
+VIL0002,Polepally,Mahabubnagar,Jadcherla,16.82928,77.80676,1910,Mixed,Weak
+VIL0003,Gangapur,Mahabubnagar,Jadcherla,16.65645,78.181741,4949,Paved,Moderate
+VIL0004,Macharam,Mahabubnagar,Jadcherla,16.932619,78.039468,5902,Paved,Weak
+VIL0005,Balanagar,Mahabubnagar,Balanagar,16.759837,77.829396,1974,Paved,Moderate

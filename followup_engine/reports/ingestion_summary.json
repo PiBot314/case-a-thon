@@ -1,0 +1,425 @@
+{
+  "storage_format": "parquet",
+  "tables": {
+    "patient_360_reference": {
+      "loaded": true,
+      "rows": 5000,
+      "source_file": "patient_360_reference.csv",
+      "bronze": "patient_360_reference.parquet",
+      "silver": "patient_360_reference.parquet",
+      "bronze_bytes": 150006,
+      "cols": 19,
+      "missing_required_cols": [],
+      "pk_duplicates": 0,
+      "null_pct": {},
+      "date_ranges": {}
+    },
+    "geography_reference": {
+      "loaded": true,
+      "rows": 36,
+      "source_file": "geography_reference.csv",
+      "bronze": "geography_reference.parquet",
+      "silver": "geography_reference.parquet",
+      "bronze_bytes": 7229,
+      "cols": 12,
+      "missing_required_cols": [],
+      "pk_duplicates": 0,
+      "null_pct": {},
+      "date_ranges": {}
+    },
+    "facility_reference": {
+      "loaded": true,
+      "rows": 27,
+      "source_file": "facility_reference.csv",
+      "bronze": "facility_reference.parquet",
+      "silver": "facility_reference.parquet",
+      "bronze_bytes": 7370,
+      "cols": 12,
+      "missing_required_cols": [],
+      "pk_duplicates": 0,
+      "null_pct": {},
+      "date_ranges": {}
+    },
+    "medicine_stock_status": {
+      "loaded": true,
+      "rows": 1296,
+      "source_file": "medicine_stock_status.csv",
+      "bronze": "medicine_stock_status.parquet",
+      "silver": "medicine_stock_status.parquet",
+      "bronze_bytes": 26117,
+      "cols": 13,
+      "missing_required_cols": [],
+      "pk_duplicates": 0,
+      "null_pct": {},
+      "date_ranges": {
+        "snapshot_month": [
+          "2026-01-01",
+          "2026-08-01"
+        ]
+      }
+    },
+    "teleconsultations": {
+      "loaded": true,
+      "rows": 5516,
+      "source_file": "teleconsultations.csv",
+      "bronze": "teleconsultations.parquet",
+      "silver": "teleconsultations.parquet",
+      "bronze_bytes": 193200,
+      "cols": 29,
+      "missing_required_cols": [],
+      "pk_duplicates": 0,
+      "null_pct": {
+        "review_due_days": 32.0,
+        "phone_norm": 7.9,
+        "phone_last4": 7.9
+      },
+      "date_ranges": {
+        "consult_date": [
+          "2026-01-01",
+          "2026-08-15"
+        ]
+      },
+      "invalid_or_missing_phone_pct": 7.9
+    },
+    "ncd_screening": {
+      "loaded": true,
+      "rows": 4748,
+      "source_file": "ncd_screening.csv",
+      "bronze": "ncd_screening.parquet",
+      "silver": "ncd_screening.parquet",
+      "bronze_bytes": 176936,
+      "cols": 24,
+      "missing_required_cols": [],
+      "pk_duplicates": 0,
+      "null_pct": {
+        "next_followup_due": 20.4,
+        "phone_norm": 8.4,
+        "phone_last4": 8.4
+      },
+      "date_ranges": {
+        "screening_date": [
+          "2025-07-01",
+          "2026-08-15"
+        ],
+        "next_followup_due": [
+          "2025-07-31",
+          "2026-11-13"
+        ]
+      },
+      "invalid_or_missing_phone_pct": 8.4
+    },
+    "prescriptions": {
+      "loaded": true,
+      "rows": 5151,
+      "source_file": "prescriptions.csv",
+      "bronze": "prescriptions.parquet",
+      "silver": "prescriptions.parquet",
+      "bronze_bytes": 204352,
+      "cols": 20,
+      "missing_required_cols": [],
+      "pk_duplicates": 0,
+      "null_pct": {
+        "phone_norm": 7.9,
+        "phone_last4": 7.9
+      },
+      "date_ranges": {
+        "prescription_date": [
+          "2026-01-01",
+          "2026-08-15"
+        ]
+      },
+      "invalid_or_missing_phone_pct": 7.9
+    },
+    "medicine_dispensing": {
+      "loaded": true,
+      "rows": 3756,
+      "source_file": "medicine_dispensing.csv",
+      "bronze": "medicine_dispensing.parquet",
+      "silver": "medicine_dispensing.parquet",
+      "bronze_bytes": 136753,
+      "cols": 20,
+      "missing_required_cols": [],
+      "pk_duplicates": 0,
+      "null_pct": {
+        "phone_norm": 8.0,
+        "phone_last4": 8.0
+      },
+      "date_ranges": {
+        "dispense_date": [
+          "2026-01-01",
+          "2026-08-20"
+        ]
+      },
+      "invalid_or_missing_phone_pct": 8.0
+    },
+    "lab_tests": {
+      "loaded": true,
+      "rows": 2005,
+      "source_file": "lab_tests.csv",
+      "bronze": "lab_tests.parquet",
+      "silver": "lab_tests.parquet",
+      "bronze_bytes": 78283,
+      "cols": 19,
+      "missing_required_cols": [],
+      "pk_duplicates": 0,
+      "null_pct": {
+        "sample_date": 25.6,
+        "result_date": 25.6,
+        "result_flag": 25.6,
+        "phone_norm": 7.4,
+        "phone_last4": 7.4
+      },
+      "date_ranges": {
+        "order_date": [
+          "2026-01-01",
+          "2026-08-15"
+        ],
+        "sample_date": [
+          "2026-01-02",
+          "2026-08-22"
+        ],
+        "result_date": [
+          "2026-01-03",
+          "2026-08-24"
+        ]
+      },
+      "invalid_or_missing_phone_pct": 7.4
+    },
+    "visit_history": {
+      "loaded": true,
+      "rows": 13061,
+      "source_file": "visit_history.csv",
+      "bronze": "visit_history.parquet",
+      "silver": "visit_history.parquet",
+      "bronze_bytes": 334961,
+      "cols": 17,
+      "missing_required_cols": [],
+      "pk_duplicates": 0,
+      "null_pct": {
+        "episode_id": 38.1,
+        "phone_norm": 8.2,
+        "phone_last4": 8.2
+      },
+      "date_ranges": {
+        "visit_date": [
+          "2025-07-01",
+          "2026-09-21"
+        ]
+      },
+      "invalid_or_missing_phone_pct": 8.2
+    },
+    "followup_visits": {
+      "loaded": true,
+      "rows": 2575,
+      "source_file": "followup_visits.csv",
+      "bronze": "followup_visits.parquet",
+      "silver": "followup_visits.parquet",
+      "bronze_bytes": 99963,
+      "cols": 17,
+      "missing_required_cols": [],
+      "pk_duplicates": 0,
+      "null_pct": {
+        "phone_norm": 7.1,
+        "phone_last4": 7.1
+      },
+      "date_ranges": {
+        "visit_date": [
+          "2026-01-08",
+          "2026-09-21"
+        ]
+      },
+      "invalid_or_missing_phone_pct": 7.1
+    },
+    "outreach_actions": {
+      "loaded": true,
+      "rows": 6088,
+      "source_file": "outreach_actions.csv",
+      "bronze": "outreach_actions.parquet",
+      "silver": "outreach_actions.parquet",
+      "bronze_bytes": 175403,
+      "cols": 18,
+      "missing_required_cols": [],
+      "pk_duplicates": 0,
+      "null_pct": {
+        "phone_norm": 7.7,
+        "phone_last4": 7.7
+      },
+      "date_ranges": {
+        "action_date": [
+          "2026-01-04",
+          "2026-09-15"
+        ]
+      },
+      "invalid_or_missing_phone_pct": 7.7
+    },
+    "episode_outcomes": {
+      "loaded": true,
+      "rows": 5516,
+      "source_file": "episode_outcomes.csv",
+      "bronze": "episode_outcomes.parquet",
+      "silver": "episode_outcomes.parquet",
+      "bronze_bytes": 86006,
+      "cols": 9,
+      "missing_required_cols": [],
+      "pk_duplicates": 0,
+      "null_pct": {
+        "lost_to_followup_label": 25.1,
+        "dropout_stage_label": 25.1
+      },
+      "date_ranges": {
+        "consult_date": [
+          "2026-01-01",
+          "2026-08-15"
+        ]
+      }
+    }
+  },
+  "fk_checks": [
+    {
+      "child": "medicine_stock_status.facility_id",
+      "parent": "facility_reference.facility_id",
+      "checked": 1296,
+      "orphans": 0
+    },
+    {
+      "child": "teleconsultations.facility_id",
+      "parent": "facility_reference.facility_id",
+      "checked": 5516,
+      "orphans": 0
+    },
+    {
+      "child": "prescriptions.teleconsult_id",
+      "parent": "teleconsultations.teleconsult_id",
+      "checked": 5151,
+      "orphans": 0
+    },
+    {
+      "child": "prescriptions.facility_id",
+      "parent": "facility_reference.facility_id",
+      "checked": 5151,
+      "orphans": 0
+    },
+    {
+      "child": "medicine_dispensing.prescription_id",
+      "parent": "prescriptions.prescription_id",
+      "checked": 3756,
+      "orphans": 0
+    },
+    {
+      "child": "medicine_dispensing.facility_id",
+      "parent": "facility_reference.facility_id",
+      "checked": 3756,
+      "orphans": 0
+    },
+    {
+      "child": "lab_tests.facility_id",
+      "parent": "facility_reference.facility_id",
+      "checked": 2005,
+      "orphans": 0
+    },
+    {
+      "child": "visit_history.episode_id",
+      "parent": "episode_outcomes.episode_id",
+      "checked": 8091,
+      "orphans": 0
+    },
+    {
+      "child": "visit_history.facility_id",
+      "parent": "facility_reference.facility_id",
+      "checked": 13061,
+      "orphans": 0
+    },
+    {
+      "child": "followup_visits.episode_id",
+      "parent": "episode_outcomes.episode_id",
+      "checked": 2575,
+      "orphans": 0
+    },
+    {
+      "child": "followup_visits.facility_id",
+      "parent": "facility_reference.facility_id",
+      "checked": 2575,
+      "orphans": 0
+    },
+    {
+      "child": "outreach_actions.episode_id",
+      "parent": "episode_outcomes.episode_id",
+      "checked": 6088,
+      "orphans": 0
+    },
+    {
+      "child": "outreach_actions.facility_id",
+      "parent": "facility_reference.facility_id",
+      "checked": 6088,
+      "orphans": 0
+    },
+    {
+      "child": "episode_outcomes.teleconsult_id",
+      "parent": "teleconsultations.teleconsult_id",
+      "checked": 5516,
+      "orphans": 0
+    }
+  ],
+  "village_string_mismatch_pct_vs_geography": {
+    "teleconsultations": 5.1,
+    "ncd_screening": 5.0,
+    "prescriptions": 4.8,
+    "medicine_dispensing": 5.1,
+    "lab_tests": 5.2,
+    "visit_history": 5.1,
+    "followup_visits": 5.1,
+    "outreach_actions": 4.9
+  },
+  "cohorts": {
+    "cohort_counts": {
+      "DEVELOPMENT": 4132,
+      "EVALUATION": 1384
+    },
+    "dev_max_date_ok": true,
+    "eval_date_window_ok": true,
+    "dev_label_null": 0,
+    "eval_label_nonnull": 0,
+    "dev_lost_rate_pct": 48.1,
+    "dropout_stage_dist": {
+      "Completed care journey": 2144,
+      "Medicine not collected": 1170,
+      "Review not attended": 543,
+      "Test not completed": 275
+    }
+  },
+  "leakage_register": {
+    "prediction_time": "T0 = end of teleconsultation. Tables flagged post_t0=True must NOT feed T0 features.",
+    "post_t0_tables_excluded_from_T0_features": [
+      "medicine_dispensing",
+      "lab_tests",
+      "visit_history",
+      "followup_visits",
+      "outreach_actions"
+    ],
+    "handle_with_care": {
+      "medicine_stock_status": "Use only snapshots from months BEFORE the consult month (prior-month stock).",
+      "teleconsultations": "consult_status may be finalised after T0 - treat with care.",
+      "ncd_screening": "History: only records dated before T0 are usable.",
+      "prescriptions": "Issued at consult time; existence of a prescription is known at T0, fills are not.",
+      "visit_history": "Pre-T0 rows are valid history; rows on/after the episode consult date are outcome-side.",
+      "episode_outcomes": "Labels are DEVELOPMENT only; blank for EVALUATION by design."
+    }
+  },
+  "source_identities": {
+    "total": 25586,
+    "by_system": {
+      "visit_history": 4747,
+      "teleconsultations": 4231,
+      "ncd_screening": 3589,
+      "prescriptions": 3449,
+      "medicine_dispensing": 2781,
+      "outreach_actions": 2705,
+      "followup_visits": 2270,
+      "lab_tests": 1814
+    },
+    "missing_phone_pct": 4.8,
+    "missing_name_pct": 0.0
+  },
+  "issues": [],
+  "status": "OK"
+}

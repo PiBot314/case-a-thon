@@ -1,0 +1,6 @@
+﻿stock_record_id,facility_id,snapshot_month,medicine_name,opening_stock,received_qty,dispensed_qty_month,closing_stock,stockout_flag_month,stockout_days,stock_status
+STK0000001,FAC001,2026-01-01,Amlodipine,239,196,294,141,0,0,Adequate
+STK0000002,FAC001,2026-01-01,Metformin,263,211,435,39,0,0,Adequate
+STK0000003,FAC001,2026-01-01,Paracetamol,248,58,130,176,0,0,Adequate
+STK0000004,FAC001,2026-01-01,Cetirizine,244,216,285,175,0,0,Adequate
+STK0000005,FAC001,2026-01-01,Pantoprazole,259,124,362,21,0,0,Low stock

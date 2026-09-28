@@ -1,0 +1,6 @@
+﻿patient_id,canonical_name,gender,date_of_birth,age_as_of_2026,masked_mobile,village_id,village,block,district,preferred_language,known_ncd_status,vulnerability_group,household_id
+P000001,Mohan Mallaiah,M,2008-05-18,18,XXXXXX5988,VIL0035,Indresham,Patancheru,Sangareddy,Telugu,Hypertension+Diabetes,General,HH00384
+P000002,Shankar Rao,M,1997-07-03,29,XXXXXX5269,VIL0007,Kallepally,Balanagar,Mahabubnagar,Telugu,None,General,HH01266
+P000003,Mohan Basha,M,1979-08-22,47,XXXXXX9751,VIL0017,Chandur,Chandur,Nalgonda,Telugu,None,Low digital access,HH00709
+P000004,Mohan Laxman,M,1981-02-20,45,XXXXXX4279,VIL0008,Bodajanampet,Balanagar,Mahabubnagar,Telugu,Hypertension,General,HH01940
+P000005,Mohan Narsimha,M,1980-12-18,46,XXXXXX6710,VIL0014,Kondamallepally,Devarakonda,Nalgonda,Telugu,Hypertension,Elderly living alone,HH02488

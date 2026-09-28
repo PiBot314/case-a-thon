@@ -1,0 +1,6 @@
+﻿outreach_id,outreach_source_patient_id,patient_name,mobile,village,action_date,action_method,contact_outcome,cadre,facility_id,episode_id,followup_reason
+OUT0000001,OUP0000001,Mohan Basha,9983609751,Chandur,2026-05-29,Village health day reminder,Patient unavailable,ASHA,FAC015,E0000001,Medicine pickup
+OUT0000002,OUP0000002,Mohan Laxman,9136944879,Bodajanampet,2026-08-12,Phone call,Reached; counselled,ASHA,FAC006,E0000002,Review visit
+OUT0000003,OUP0000003,Mohn Narsimha,9484336710,Kondamallepalli,2026-06-09,WhatsApp/SMS,Wrong number,ASHA,FAC011,E0000004,Review visit
+OUT0000004,OUP0000003,Mohn Narsimha,9484336710,Kondamallepally,2026-06-21,Phone call,Wrong number,CHO,FAC011,E0000004,Medicine pickup
+OUT0000005,OUP0000004,Sai Krishna,9445488147,Macharam,2026-05-08,Phone call,Reached; counselled,ASHA,FAC001,E0000005,Test completion

@@ -1,0 +1,6 @@
+﻿visit_id,visit_source_patient_id,patient_name,mobile,village,visit_date,visit_type,facility_id,episode_id,clinical_status,referral_flag
+VIS0000003,VIP0000002,Mohan Laxman,9136944279,Bodajanampet,2026-08-20,Follow-up review,FAC004,E0000003,Needs escalation,No
+VIS0000005,VIP0000003,Mohan Narsimha,9484336710,Kondamallepally,2026-07-06,Follow-up review,FAC011,E0000004,Needs escalation,No
+VIS0000009,VIP0000005,Anitha Narsimha,9474992238,Devarakonda,2026-04-15,Follow-up review,FAC011,E0000007,Stable,Yes
+VIS0000011,VIP0000006,Ramesh Begum,9645420540,Kangti,2026-03-03,Follow-up review,FAC020,E0000008,Needs escalation,No
+VIS0000013,VIP0000006,Ramesh Begum,+91-96454-20540,Kangti,2026-08-04,Follow-up review,FAC019,E0000009,Needs escalation,No

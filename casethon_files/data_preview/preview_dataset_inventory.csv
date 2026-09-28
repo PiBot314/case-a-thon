@@ -1,0 +1,6 @@
+﻿file,records_excluding_header
+patient_360_reference.csv,5000
+teleconsultations.csv,5516
+ncd_screening.csv,4748
+prescriptions.csv,5151
+medicine_dispensing.csv,3756

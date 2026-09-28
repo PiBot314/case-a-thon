@@ -1,0 +1,6 @@
+﻿episode_id,teleconsult_id,consult_date,cohort,lost_to_followup_label,dropout_stage_label
+E0000001,TC0000001,2026-05-19,DEVELOPMENT,0,Completed care journey
+E0000002,TC0000002,2026-07-22,EVALUATION,,
+E0000003,TC0000003,2026-08-11,EVALUATION,,
+E0000004,TC0000004,2026-06-02,DEVELOPMENT,0,Completed care journey
+E0000005,TC0000005,2026-04-24,DEVELOPMENT,1,Medicine not collected
